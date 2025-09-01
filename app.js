@@ -58,7 +58,7 @@ const cuantoescounter = (utc2, utc3) => {
 obtenerPais2(utc => {
     let utc2 = Number(utc)  
     cuantoescounter(utc2,utc3)
-    let countDate = new Date("Aug 31 2025 14:30:00").getTime()/*+utc2*/;/**17'30 */
+    let countDate = new Date("Sep 14 2025 17:30:00").getTime()/*+utc2*/;/**17'30 */
     countdown(countDate,result,state)
 });
 
